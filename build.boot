@@ -4,6 +4,9 @@
                   [clj-http "3.7.0" :scope "test"]
                   [org.clojure/clojurescript "1.9.946" :scope "test"]
                   [cljsjs/react-dom "16.1.0-0" :scope "test"]
+                  [javax.xml.bind/jaxb-api "2.3.1"]
+                  [com.sun.xml.bind/jaxb-core "2.3.0.1"]
+                  [com.sun.xml.bind/jaxb-impl "2.3.2"]
                   ;; Conflicts with cljs
                   #_[asset-minifier "0.2.6" :scope "test" :exclusions []]])
 
